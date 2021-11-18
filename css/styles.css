@@ -112,6 +112,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   display: flex;
+  padding: 32px 0;
 }
 
 .nav-item:not(:last-child) {
@@ -164,11 +165,6 @@ img {
 
 /* section */
 
-.section {
-  margin-top: 94px;
-  margin-bottom: 94px;
-}
-
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -179,6 +175,9 @@ img {
 }
 
 /* advantage-ssection */
+.advantage-section {
+  padding: 94px 0;
+}
 
 .advantage {
   display: flex;
@@ -200,6 +199,9 @@ img {
 }
 
 /* services-section */
+.services-section {
+  padding-bottom: 94px;
+}
 
 .services-list {
   display: flex;
@@ -213,7 +215,7 @@ img {
 
 .team-section {
   background-color: var(--back-ground-grey);
-  padding: 94px 0 94px 0;
+  padding: 94px 0;
 }
 
 .team-list {
@@ -228,29 +230,28 @@ img {
   margin-right: 30px;
 }
 
+.team-text {
+  padding: 30px 0;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   color: var(--second-black);
   text-align: center;
-  margin-top: 30px;
 }
 
-.team-text {
+.team-paragraf {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /* footer*/
 
 .footer {
   background-color: var(--back-ground-black);
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -314,6 +315,7 @@ img {
   background-color: var(--back-ground-grey);
   border: 0;
   border-radius: 4px;
+  padding: 6px 22px;
   margin-right: 8px;
 }
 
@@ -334,9 +336,9 @@ img {
 
 /* portfolio*/
 
-.portfolio-container {
-  margin-top: 94px;
-  margin-bottom: 94px;
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .button-list {
